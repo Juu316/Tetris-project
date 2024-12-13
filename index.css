@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: rgb(47, 36, 16);
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  margin-top: 2%;
+  border: 1px solid royalblue;
+}
+#aravhori {
+  width: 400px;
+  height: 800px;
+  background-color: brown;
+}
+#nextPieces {
+  width: 200px;
+  height: 450px;
+  background-color: blue;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  height: 800px;
+  background-color: green;
+}
+#hold {
+  height: 200px;
+  background-color: aqua;
+}
+#stats {
+  height: 400px;
+  background-color: hotpink;
+}
+
+.big-word {
+  background-color: cornsilk;
+  font-size: 30px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#score {
+  width: 100%;
+}
